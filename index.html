@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Messages App</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+	<div class="jumbotron">
+		<h1>Message Forum</h1>
+	</div>
+	
+	<div class="container">
+			 <div class='input-group col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2' id='input'>
+		      	<span class='input-group-addon'>Name:</span>
+		      	<input id='name' class='form-control' type='text' placeholder="Your name">
+		      	<span class='input-group-addon'>Comment:</span>
+		      	<input class="form-control" id="messageInput" placeholder="write something">
+		      
+		      <span class="input-group-btn">
+		         <button class="btn btn-default" id='newComment'>Post</button>
+		      </span>
+		    </div>	
+		<div id="forum"></div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+.info {
+	font-size: 13px;
+	font-style: italic;;
+}
+
+#forum {
+	text-align: center;
+}
+
+.post {
+	border: 1px solid blue;
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
